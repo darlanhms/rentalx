@@ -7,7 +7,7 @@
     "author": "Dev10 <desenvolvimento@pedidos10.com.br>",
     "license": "MIT",
     "scripts": {
-        "dev": "ts-node-dev -r dotenv/config --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
+        "dev": "ts-node-dev -r dotenv/config --respawn --inspect --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
         "start": "cross-env NODE_ENV=production node dist/server.js",
         "build": "tsc",
         "test": "jest",
