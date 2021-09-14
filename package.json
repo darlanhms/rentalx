@@ -1,5 +1,5 @@
 {
-    "name": "@pedidos10/template-node",
+    "name": "rentalx",
     "private": true,
     "version": "1.0.0",
     "main": "src/server",
@@ -7,7 +7,7 @@
     "author": "Dev10 <desenvolvimento@pedidos10.com.br>",
     "license": "MIT",
     "scripts": {
-        "dev": "ts-node-dev -r tsconfig-paths/register -r dotenv/config --respawn --transpile-only --ignore-watch node_modules --no-notify --poll src/server.ts",
+        "dev": "ts-node-dev -r dotenv/config --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
         "start": "cross-env NODE_ENV=production node dist/server.js",
         "build": "tsc",
         "test": "jest",
@@ -41,6 +41,6 @@
         "ts-jest": "^26.5.1",
         "ts-node": "3.3.0",
         "ts-node-dev": "^1.1.1",
-        "typescript": "^4.1.3"
+        "typescript": "^4.4.2"
     }
 }
