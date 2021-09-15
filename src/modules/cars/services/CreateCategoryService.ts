@@ -1,4 +1,4 @@
-import ICategoriesRepository, { ICreateCategoryDTO } from '../repositories/ICategoryRepository';
+import ICategoriesRepository, { ICreateCategoryDTO } from '../repositories/ICategoriesRepository';
 
 export default class CreateCategoryService {
     constructor(private categoriesRepository: ICategoriesRepository) {}
